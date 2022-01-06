@@ -2,7 +2,7 @@
   "extends": "@qsalatiel/eslint-config-typescript",
   "overrides": [
     {
-      "files": ["**/*.test.ts"],
+      "files": ["**/*.test.ts", "**/*.spec.tsx"],
       "env": {
         "jest": true
       },
